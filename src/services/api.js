@@ -15,7 +15,7 @@ const buildParams = (params) => {
 }
 
 //TODO reqParams to be array
-const validateParams = (params, reqParams) => {
+export const validateParams = (params, reqParams) => {
     let isValid = params !== undefined;
     if(params){
         const paramsArray = Object.keys(params);
